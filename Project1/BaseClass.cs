@@ -92,5 +92,20 @@ namespace Learn_Csharp_in_1week {
         }
     }
 
+    class A {
+        public A(int i, double d, string s) {
+            I = i; D = d; S = s;
+        }
+        public int I {
+            get; set;
+        }
+        public double D {
+            get; set;
+        }
+        public string S {
+            get; set;
+        }
+    }
+
 
 } // Learn_Csharp_in_1week

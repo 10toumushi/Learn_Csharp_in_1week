@@ -35,9 +35,11 @@ namespace Learn_Csharp_in_1week {
 
             //obj.CheckExerciseEx602();
 
-            obj.CheckExerciseEx603();
+            //obj.CheckExerciseEx603();
 
-            //obj.CheckClass();
+            obj.CheckClass();
+
+            obj.CheckClass2();
 
 
 

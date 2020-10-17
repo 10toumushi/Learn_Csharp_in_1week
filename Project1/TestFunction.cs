@@ -430,13 +430,38 @@ namespace Learn_Csharp_in_1week {
 
             CallBase(b1);
             Console.WriteLine();
+
             CallBase(s1);
+            Console.WriteLine();
+
+            Base[] b_array = new Base[3];
+            for (int i = 0; i<b_array.Length; i++) {
+                b_array[i] = new Base();
+            }
+
+            Console.WriteLine();
+        }
+        
+        
+        /// <summary>
+        /// クラスの確認
+        /// </summary>
+        /// <param name=void>void</param>
+        public void CheckClass2() {
+            Console.WriteLine("-------- CheckClass2 --------\n");
+
+            A[] a = {new A(1, 2.3, "4"), new A(5, 6.7, "8")};
+
+            foreach (A i in a) {
+                Console.WriteLine("{0}, {1}, {2}", i.I, i.D, i.S);
+            }
+
 
             Console.WriteLine();
         }
 
+
+
     }
-
-
 
 } // Learn_Csharp_in_1week
